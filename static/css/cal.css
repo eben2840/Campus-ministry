@@ -72,7 +72,7 @@ p {
 
 .btn {
   display: inline-block;
-  background: #ff523b;
+  background: #f1464f;
   color: #ffffff;
   padding: 8px 30px;
   margin: 30px 0;
@@ -135,7 +135,7 @@ p {
 }
 .title::after {
   content: "";
-  background: #ff523b;
+  background: #f1464f;
   width: 80px;
   height: 5px;
   border-radius: 5px;
@@ -155,11 +155,11 @@ h4 {
 }
 
 .rating .fas {
-  color: #ff523b;
+  color: #f1464f;
 }
 
 .rating .far {
-  color: #ff523b;
+  color: #f1464f;
 }
 
 .col-4:hover {
@@ -208,7 +208,7 @@ small {
 
 .fa-quote-left {
   font-size: 34px;
-  color: #ff523b;
+  color: #f1464f;
 }
 
 .col-3 p {
@@ -353,7 +353,7 @@ ul {
 }
 
 select {
-  border: 1px solid #ff523b;
+  border: 1px solid #f1464f;
   padding: 5px;
 }
 
@@ -367,7 +367,7 @@ select:focus {
 
 .page-btn span {
   display: inline-block;
-  border: 1px solid #ff523b;
+  border: 1px solid #f1464f;
   margin-left: 10px;
   width: 40px;
   height: 40px;
@@ -469,7 +469,7 @@ td input {
 }
 
 td a {
-  color: #ff523b;
+  color: #f1464f;
   font-size: 12px;
 }
 
@@ -485,7 +485,7 @@ td img {
 }
 
 .total-price table {
-  border-top: 3px solid #ff523b;
+  border-top: 3px solid #f1464f;
   width: 100%;
   max-width: 400px;
 }
@@ -570,7 +570,7 @@ form a {
 #Indicator {
   width: 100px;
   border: none;
-  background: #ff523b;
+  background: #f1464f;
   height: 3px;
   margin-top: 8px;
   transform: translateX(100px);

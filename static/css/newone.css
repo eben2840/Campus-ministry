@@ -489,14 +489,30 @@
   .mobile-bottom-navigation .action-btn {
     position: relative;
     font-size: 26px;
-    color: var(--eerie-black);
+    color: rgb(163, 158, 158);
+    padding: 20px;
+  }
+   
+  .mobile-bottom-navigation .action-btn:hover {
+    
+   
+    color: rgb(177, 57, 57);
+  padding: 10px;
+  }
+
+  .mobile-bottom-navigation .action-btnn {
+    position: relative;
+    background:rgb(177, 57, 57);
+    border-radius:50px;
+    font-size: 26px;
+    color: #fff;
     padding: 10px;
   }
   
   .mobile-bottom-navigation .count {
     background: var(--bittersweet);
     color: var(--white);
-    position: absolute;
+    
     top: 0;
     right: 0;
     font-size: 12px;
@@ -1426,7 +1442,7 @@
     border-radius: var(--border-radius-sm);
   }
   
-  .cta-content .discount {
+  .cta-content .disbox {
     background: var(--eerie-black);
     color: var(--white);
     font-size: var(--fs-11);
@@ -2193,16 +2209,7 @@
     }
   
     .header-user-actions .count {
-      position: absolute;
-      top: -2px;
-      right: -3px;
-      background: var(--bittersweet);
-      color: var(--white);
-      font-size: 12px;
-      font-weight: var(--weight-500);
-      line-height: 1;
-      padding: 2px 4px;
-      border-radius: 20px;
+    
     }
   
     .desktop-navigation-menu { display: block; }
