@@ -1,320 +1,387 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!doctype html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link href="static/css/newone.css" rel="stylesheet" type="text/css">
-    <link href="newon.css" rel="stylesheet" type="text/css">
-
-    <link rel="stylesheet" href="static/css/prefix.css">
-    <script src="script.js"></script>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <title>Campus Ministry</title>
-    <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-    
-  <!--
-    - favicon
-  -->
-  <link rel="shortcut icon" href="/static/images/logo/favicon.ico" type="image/x-icon">
-
-  <!--
-    - custom css link
-  -->
-
-
-  <!--
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet">
-
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-  <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-  </head>
-  <body>
-<!--
-<script src="//code.tidio.co/z46yutguynyvhsigmqopusi6j8nnpg2c.js" async></script>
--->
-<div class="container" >
-  
-  <!--nav-bar-slider-->
-  <nav class="navbar bg-light fixed-top">
-    <div class="container-fluid">
-      <h5 style=" color: #000;" ><b>Campus Feed <b> </h5>
-  
+      <link href="static/css/newone.css" rel="stylesheet" type="text/css">
+      <link href="newon.css" rel="stylesheet" type="text/css">
+<!-- Font Awesome -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+  rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+  rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.1/mdb.min.css"
+  rel="stylesheet"
+/>
+      <link rel="stylesheet" href="static/css/prefix.css">
+      <script src="script.js"></script>
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <title>Campus Ministry</title>
+      <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+      <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
       
-      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <!--
+      - favicon
+    -->
+    <link rel="shortcut icon" href="/static/images/logo/favicon.ico" type="image/x-icon">
 
-      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" >
-        <div class="offcanvas-header">
-          <h3 class="offcanvas-title" id="offcanvasNavbarLabel" style="background-color:gray; padding:7px; width:90px; border-radius:30px; text-align:center; ">App </h3>
-          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
+    <!--
+      - custom css link
+    -->
 
-        <div class="offcanvas-body">
-          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"><h1><b>More</b></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#"><h4> Community</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><h4>Verse of the day</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><h4>Prayer Wall</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Course</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <hr class="dropdown-divider">
+
+    <!--
+      - google font link
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet">
+
+
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    </head>
+    <body>
+  <!--
+  <script src="//code.tidio.co/z46yutguynyvhsigmqopusi6j8nnpg2c.js" async></script>
+  -->
+  <div class="container" >
+    
+    <!--nav-bar-slider-->
+    <nav class="navbar bg-light fixed-top">
+      <div class="container-fluid">
+        <h5 style=" color: #000;" ><b>Campus Feed <b> </h5>
+    
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" >
+          <div class="offcanvas-header">
+            <h3 class="offcanvas-title" id="offcanvasNavbarLabel" style="background-color:gray; padding:7px; width:90px; border-radius:30px; text-align:center; ">App </h3>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><h1><b>More</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#"><h4> Community</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><h4>Verse of the day</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><h4>Prayer Wall</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Course</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><h4>Videos</a>
                 </li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><h4>Videos</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><h4>Events</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><h4>Highlight</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><h4>Notes</a>
+                </li>
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><h4>Tithes and Offetory</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><h4>Setting</a>
+                </li>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><h4>Events</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><h4>Highlight</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><h4>Notes</a>
-              </li>
-             
-              <li class="nav-item">
-                <a class="nav-link" href="#"><h4>Tithes and Offetory</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><h4>Setting</a>
-              </li>
-            </li>
-          </ul>
-         
+            </ul>
+          
+          </div>
+        </div>
+      </div>
+    </nav>
+  <!--end of navbar-->
+
+<br><br>
+    <!--end of hero-->
+    <br>
+    
+ 
+
+
+
+
+
+
+  
+    <div class="card rounded-7 shadow-5-strong background-radial-gradient" style="margin-top:10px; margin-bottom:20px;">
+      <div class="card-body">
+        <h1 class="my-4 display-3 fw-bold ls-tight" style="color: hsl(218, 81%, 95%)">
+          Do not miss <br />
+          <span style="color: hsl(0, 0%, 75%)">any updates</span>
+        </h1>
+        <p class="mb-4 lead" style="color: hsl(0, 0%, 75%)">
+          We will write rarely and only high-quality content.
+        </p>
+      </div>
+    </div>
+    
+    <style>
+      .background-radial-gradient {
+        background-color: hsl(218, 41%, 15%);
+        background-image: radial-gradient(650px circle at 0% 0%,
+            hsl(218, 41%, 35%) 15%,
+            hsl(218, 41%, 30%) 35%,
+            hsl(218, 41%, 20%) 75%,
+            hsl(218, 41%, 19%) 80%,
+            transparent 100%),
+          radial-gradient(1250px circle at 100% 100%,
+            hsl(218, 41%, 45%) 15%,
+            hsl(218, 41%, 30%) 35%,
+            hsl(218, 41%, 20%) 75%,
+            hsl(218, 41%, 19%) 80%,
+            transparent 100%);
+      }
+    </style>
+  
+
+  <!--download outline-->
+
+
+  <!-- Carousel wrapper -->
+  <div id="carouselMaterialStyle" class="carousel slide carousel-fade" data-mdb-ride="carousel">
+    <!-- Indicators -->
+    <div class="carousel-indicators">
+      <button type="button" data-mdb-target="#carouselMaterialStyle" data-mdb-slide-to="0" class="active" aria-current="true"
+        aria-label="Slide 1"></button>
+      <button type="button" data-mdb-target="#carouselMaterialStyle" data-mdb-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-mdb-target="#carouselMaterialStyle" data-mdb-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+
+    <!-- Inner -->
+    <div class="carousel-inner rounded-5 shadow-4-strong">
+      <!-- Single item -->
+      <div class="carousel-item active">
+        <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(15).webp" class="d-block w-100"
+          alt="Sunset Over the City" />
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </div>
+      </div>
+
+      <!-- Single item -->
+      <div class="carousel-item">
+        <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(22).webp" class="d-block w-100"
+          alt="Canyon at Nigh" />
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+
+      <!-- Single item -->
+      <div class="carousel-item">
+        <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp" class="d-block w-100"
+          alt="Cliff Above a Stormy Sea" />
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
         </div>
       </div>
     </div>
-  </nav>
-<!--end of navbar-->
+    <!-- Inner -->
 
-
-<!--hero section-->
-  <div class="row" style="  padding: 20px; background: #992621;">
-    <h6 class="text-muted"  >Project Outline</h6>
-    <div class="ade" style="display: flex; justify-content: space-between; margin-top:10px;">
-      <a href="" style="text-decoration: none; color: #fff; margin-top:40px; margin-right:px;">
-       <h5><b>Theme For The Semester:<b></h5>
-       <h6>Love the Greatest.</h6>
-      
-     </a>
-             </div>
+    <!-- Controls -->
+    <button class="carousel-control-prev" type="button" data-mdb-target="#carouselMaterialStyle" data-mdb-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-mdb-target="#carouselMaterialStyle" data-mdb-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
-  <!--end of hero-->
-  <br>
-  
-<!--download outline-->
-
-  <div class="ade"style="  border-radius:10px; margin-bottom:20px; padding:20px; box-shadow: 0 2px 8px 0 rgba(209, 11, 47, 0.1), 0 60px 80px 0 rgba(74, 58, 255, 0.02), 0 40px 50px 0 rgba(74, 58, 255, 0.05);
-  ">
-  <img src="static/img/oo.png" alt="" style="  width:50px; height:30px; margin-bottom:10px;"  >
-  <!-- <span class="text-muted" style="font-size:13px;">May 1st,2023</span></h6> -->
-  <img src="static/img/cta-banner.jpg" alt=""style="width:100%;  border-radius:5px;  object-fit:cover;"  >  
-   <div class="ade"style="display: flex; justify-content: space-between;  margin-top:20px; ">
-       
-    <h6>Prayer Chain</h6>
-
-<a href="" style="text-decoration: none;  text-align:center; color: #fff;">
-<h6 style="font-size:10px;" class="text-muted">May 1st,2023</h6>
-</a>
-</div>
-</div>
+  <!-- Carousel wrapper -->
 
 
-
-<!--end of outline-->
-
-
-
-<!--download outline-->
-
-<div class="ade"style="  border-radius:10px; margin-bottom:20px; padding:20px; box-shadow: 0 2px 8px 0 rgba(209, 11, 47, 0.1), 0 60px 80px 0 rgba(74, 58, 255, 0.02), 0 40px 50px 0 rgba(74, 58, 255, 0.05);
-">
-<img src="static/img/oo.png" alt="" style="  width:50px; height:30px; margin-bottom:10px;"  >
-<!-- <span class="text-muted" style="font-size:13px;">May 1st,2023</span></h6> -->
-<img src="static/img/cta-banner.jpg" alt=""style="width:100%;  border-radius:5px;  object-fit:cover;"  >  
- <div class="ade"style="display: flex; justify-content: space-between;  margin-top:20px; ">
-     
-  <h6>Prayer Chain</h6>
-
-<a href="" style="text-decoration: none;  text-align:center; color: #fff;">
-<h6 style="font-size:10px;" class="text-muted">May 1st,2023</h6>
-</a>
-</div>
-</div>
-
-
-
-<!--end of outline-->
-
-
-<!--download outline-->
-
-<div class="ade"style="  border-radius:10px; margin-bottom:20px; padding:20px; box-shadow: 0 2px 8px 0 rgba(209, 11, 47, 0.1), 0 60px 80px 0 rgba(74, 58, 255, 0.02), 0 40px 50px 0 rgba(74, 58, 255, 0.05);
-">
-<img src="static/img/oo.png" alt="" style="  width:50px; height:30px; margin-bottom:10px;"  >
-<!-- <span class="text-muted" style="font-size:13px;">May 1st,2023</span></h6> -->
-<img src="static/img/cta-banner.jpg" alt=""style="width:100%;  border-radius:5px;  object-fit:cover;"  >  
- <div class="ade"style="display: flex; justify-content: space-between;  margin-top:20px; ">
-     
-  <h6>Prayer Chain</h6>
-
-<a href="" style="text-decoration: none;  text-align:center; color: #fff;">
-<h6 style="font-size:10px;" class="text-muted">May 1st,2023</h6>
-</a>
-</div>
-</div>
-
-
-
-<!--end of outline-->
-
-
-
-
-<!--hero section-->
-<div class="row" style="  padding: 20px; background: #992621;">
  
-  <div class="ade" style="justify-content: space-between; margin-top:6px;">
-    <a href="" style="text-decoration: none; color: #fff; margin-top:10px; margin-right:px;">
-     
-      <img src="static/img/cta-banner.jpg" alt=""style="width:100%;  border-radius:5px;  object-fit:cover;"  >  
-   
-    
-   </a>
-           </div>
-           <div class="ade"style="display: flex; justify-content: space-between;  margin-top:20px; ">
-     
-            <h6 style="color:#fff">Swag Sunday</h6>
-          
-          <a href="" style="text-decoration: none;  text-align:center; color: #fff;">
-          <h6 style="font-size:10px;" >May 1st,2023</h6>
-          </a>
-          </div>
-
-</div>
-<!--end of hero-->
-<br>
 
 
-<!--download outline-->
-
-<div class="ade"style="  border-radius:10px; margin-bottom:20px; padding:20px; box-shadow: 0 2px 8px 0 rgba(209, 11, 47, 0.1), 0 60px 80px 0 rgba(74, 58, 255, 0.02), 0 40px 50px 0 rgba(74, 58, 255, 0.05);
-">
-<img src="static/img/oo.png" alt="" style="  width:50px; height:30px; margin-bottom:10px;"  >
-<!-- <span class="text-muted" style="font-size:13px;">May 1st,2023</span></h6> -->
-<img src="static/img/cta-banner.jpg" alt=""style="width:100%;  border-radius:5px;  object-fit:cover;"  >  
- <div class="ade"style="display: flex; justify-content: space-between;  margin-top:20px; ">
-     
-  <h6>Prayer Chain</h6>
-
-<a href="" style="text-decoration: none;  text-align:center; color: #fff;">
-<h6 style="font-size:10px;" class="text-muted">May 1st,2023</h6>
-</a>
-</div>
-</div>
-
-
-
-<!--end of outline-->
-
-
-
-
-
-
-
-
-
-<div class="mobile-bottom-navigation">
-  <a href="/main"><button class="action-btn">
-    <ion-icon name="home-outline"></ion-icon>
-   
-    </button></a>
-
-    <a href="/ministry"><button class="action-btn">
-      <ion-icon name="home-outline"></ion-icon>
+  <!--end of outline-->
+<div>
+  <div style="display:flex; justify-content:space-between;">
+    <p style="margin-top:30px;">Campus Live.</p>
+    <p style="margin-top:30px;">See all</p>
+  </div>
+  <div class="contain" style="   display:flex; overflow:auto;" >
       
-    </button></a>
+    <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp"  alt=""style="width:200px; object-fit:cover; border-radius:20px;   box-shadow: rgba(90, 90, 90, 0.2) 0px 1px 1px;  margin:5px; height:200px;"> 
+    <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp"  alt=""style="width:200px; object-fit:cover; border-radius:20px;   box-shadow: rgba(90, 90, 90, 0.2) 0px 1px 1px;  margin:5px; height:200px;"> 
+    <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp"  alt=""style="width:200px; object-fit:cover; border-radius:20px;   box-shadow: rgba(90, 90, 90, 0.2) 0px 1px 1px;  margin:5px; height:200px;"> 
+    <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp"  alt=""style="width:200px; object-fit:cover; border-radius:20px;   box-shadow: rgba(90, 90, 90, 0.2) 0px 1px 1px;  margin:5px; height:200px;"> 
+    <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp"  alt=""style="width:200px; object-fit:cover; border-radius:20px;   box-shadow: rgba(90, 90, 90, 0.2) 0px 1px 1px;  margin:5px; height:200px;"> 
+    <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp"  alt=""style="width:200px; object-fit:cover; border-radius:20px;   box-shadow: rgba(90, 90, 90, 0.2) 0px 1px 1px;  margin:5px; height:200px;"> 
+    <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp"  alt=""style="width:200px; object-fit:cover; border-radius:20px;   box-shadow: rgba(90, 90, 90, 0.2) 0px 1px 1px;  margin:5px; height:200px;"> 
+    <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp"  alt=""style="width:200px; object-fit:cover; border-radius:20px;   box-shadow: rgba(90, 90, 90, 0.2) 0px 1px 1px;  margin:5px; height:200px;"> 
+    <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp"  alt=""style="width:200px; object-fit:cover; border-radius:20px;   box-shadow: rgba(90, 90, 90, 0.2) 0px 1px 1px;  margin:5px; height:200px;"> 
+    <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp"  alt=""style="width:200px; object-fit:cover; border-radius:20px;   box-shadow: rgba(90, 90, 90, 0.2) 0px 1px 1px;  margin:5px; height:200px;"> 
+    </div>
+  </div>
 
-<a href="/ministry"><button class="action-btnn">
-  <ion-icon name="grid-outline"></ion-icon>
-  
-</button></a>
-
-
-
-<button class="action-btn">
-  <ion-icon name="home-outline"></ion-icon>
-  
-</button>
-
-
-
-<!--  <button class="action-btn" data-mobile-menu-open-btn>
-  <ion-icon name="-outline"></ion-icon>
-</button>-->
-
-<a href="/give"><button class="action-btn" data-mobile-menu-open-btn>
-  <ion-icon name="home-outline"></ion-icon>
- 
-</button></a>
-
+<!-- Image with no mask -->
+<div class="bg-image rounded-6" style="max-width: 420px;">
+  <div style="display:flex; justify-content:space-between;">
+    <p style="margin-top:30px;">Campus Live.</p>
+    
+  </div>
+  <img
+    src="https://mdbootstrap.com/img/new/ecommerce/vertical/010.jpg"
+    class="w-100"
+    alt="Alternative text" style="border-radius:20px; nargin:bottom:30px;"
+  />
+  <div
+    class="mask"
+    style="
+      background: linear-gradient(
+        to bottom,
+        hsla(0, 0%, 0%, 0) 50%,
+        hsla(0, 0%, 0%, 0.5)
+      );
+    "
+  >
+    <div
+      class="
+        bottom-0
+        d-flex
+        align-items-end
+        h-100
+        text-center
+        justify-content-center
+      "
+    >
+      <div>
+        <h2 class="fw-bold text-white mb-4">Can you see me?</h2>
+      </div>
+    </div>
+  </div>
 </div>
 
-<!--box-->
-<br>
-<!--end of box--> 
-<!--ending-->
-<h6 class="text-muted" style="padding-bottom:2vh; text-align:center;">Rearrange your favorite taps</h6>
-<!---->
-</div>
 
+  <!--end of outline-->
+  <div>
+    <div style="display:flex; justify-content:space-between;">
+      <p style="margin-top:30px;">Campus Live.</p>
+      <p style="margin-top:30px;">See all</p>
+    </div>
+    <div class="contain" style="   display:flex; overflow:auto; margin-bottom:30px;" >
+        
+      <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp"  alt=""style="width:300px; object-fit:cover; border-radius:20px;   box-shadow: rgba(90, 90, 90, 0.2) 0px 1px 1px;  margin:5px; height:300px;"> 
+      <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp"  alt=""style="width:300px; object-fit:cover; border-radius:20px;   box-shadow: rgba(90, 90, 90, 0.2) 0px 1px 1px;  margin:5px; height:300px;"> 
+      <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp"  alt=""style="width:300px; object-fit:cover; border-radius:20px;   box-shadow: rgba(90, 90, 90, 0.2) 0px 1px 1px;  margin:5px; height:300px;"> 
+      <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp"  alt=""style="width:300px; object-fit:cover; border-radius:20px;   box-shadow: rgba(90, 90, 90, 0.2) 0px 1px 1px;  margin:5px; height:300px;"> 
+      <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp"  alt=""style="width:300px; object-fit:cover; border-radius:20px;   box-shadow: rgba(90, 90, 90, 0.2) 0px 1px 1px;  margin:5px; height:300px;"> 
+      <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp"  alt=""style="width:300px; object-fit:cover; border-radius:20px;   box-shadow: rgba(90, 90, 90, 0.2) 0px 1px 1px;  margin:5px; height:300px;"> 
+      <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp"  alt=""style="width:300px; object-fit:cover; border-radius:20px;   box-shadow: rgba(90, 90, 90, 0.2) 0px 1px 1px;  margin:5px; height:300px;"> 
+      <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp"  alt=""style="width:300px; object-fit:cover; border-radius:20px;   box-shadow: rgba(90, 90, 90, 0.2) 0px 1px 1px;  margin:5px; height:300px;"> 
+      <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp"  alt=""style="width:300px; object-fit:cover; border-radius:20px;   box-shadow: rgba(90, 90, 90, 0.2) 0px 1px 1px;  margin:5px; height:300px;"> 
+      <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp"  alt=""style="width:300px; object-fit:cover; border-radius:20px;   box-shadow: rgba(90, 90, 90, 0.2) 0px 1px 1px;  margin:5px; height:300px;"> 
+      </div>
+    </div>
+
+  <div class="mobile-bottom-navigation">
+    <a href="/main"><button class="action-btn">
+      <ion-icon name="home-outline"></ion-icon>
+    
+      </button></a>
+
+      <a href="/ministry"><button class="action-btn">
+        <ion-icon name="home-outline"></ion-icon>
+        
+      </button></a>
+
+  <a href="/ministry"><button class="action-btnn">
+    <ion-icon name="grid-outline"></ion-icon>
+    
+  </button></a>
+
+
+
+  <button class="action-btn">
+    <ion-icon name="home-outline"></ion-icon>
+    
+  </button>
+
+
+
+  <!--  <button class="action-btn" data-mobile-menu-open-btn>
+    <ion-icon name="-outline"></ion-icon>
+  </button>-->
+
+  <a href="/give"><button class="action-btn" data-mobile-menu-open-btn>
+    <ion-icon name="home-outline"></ion-icon>
   
-</div>
-</div>
+  </button></a>
+
+  </div>
+
+  <!--box-->
+  <br>
+  <!--end of box--> 
+  <!--ending-->
+  <h6 class="text-muted" style="padding-bottom:2vh; text-align:center;">Rearrange your favorite taps</h6>
+  <!---->
+  </div>
+
+    
+  </div>
+  </div>
+
+
+<!-- MDB -->
+<script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.1/mdb.min.js"
+></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 
 
 
-<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    
 
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
 
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-  
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
-
-</body>
-</html>
+  </body>
+  </html>

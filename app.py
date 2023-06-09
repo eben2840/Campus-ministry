@@ -41,6 +41,13 @@ def give():
         return render_template('give.html')
     return render_template('give.html')
 
+@app.route('/whoops',methods=['GET','POST'])
+def whoops():
+    if request.method=='POST':
+        # Handle POST Request here
+        return render_template('whoops.html')
+    return render_template('whoops.html')
+
 
 
 
